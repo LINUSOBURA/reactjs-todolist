@@ -4,7 +4,7 @@ export default function Heading() {
   return (
     <header>
       <div className="heading">
-        <h1>My Todo App</h1>
+        <h1>Todo or Not</h1>
       </div>
     </header>
   );
