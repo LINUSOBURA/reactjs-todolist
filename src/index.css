@@ -144,8 +144,6 @@ p {
 .Do_or_Not {
   display: flex;
   gap: 14px;
-  align-items: center;
-  justify-content: space-evenly;
 }
 .list {
   width: 100%;
