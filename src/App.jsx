@@ -111,23 +111,17 @@ function App() {
         <br />
 
         <div className="Do_or_Not">
-          <span className="list">
-            <h4>Do</h4>
-            <TodoList
-              handleDeleteTodo={handleDeleteTodo}
-              todos={todos}
-              handleEditTodo={handleEditTodo}
-            />
-          </span>
+          <TodoList
+            handleDeleteTodo={handleDeleteTodo}
+            todos={todos}
+            handleEditTodo={handleEditTodo}
+          />
 
-          <span className="list">
-            <h4>Don't</h4>
-            <NotTodoList
-              handleDeleteNotTodo={handleDeleteNotTodo}
-              nottodos={nottodos}
-              handleEditNotTodo={handleEditNotTodo}
-            />
-          </span>
+          <NotTodoList
+            handleDeleteNotTodo={handleDeleteNotTodo}
+            nottodos={nottodos}
+            handleEditNotTodo={handleEditNotTodo}
+          />
         </div>
       </div>
     </ThemeContext.Provider>
